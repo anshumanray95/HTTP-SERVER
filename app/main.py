@@ -4,6 +4,7 @@
 # import os
 # import argparse
 
+# TEST 1 FOR COMPRESSION
 # #def handler(connection, address):
 # def handler(connection, address, args):
 #     data = connection.recv(1024)
@@ -75,6 +76,11 @@
         
 # if __name__ == "__main__":
 #     main()
+
+#CONLUSION - FAILED DUE TO MULTIPLE CAN'T HANDELED
+
+
+#  TEST 2 FOR HEXADECIMAL REPRESENTATION 
 
 # import socket
 # from threading import Thread
@@ -205,8 +211,10 @@
 # if __name__ == "__main__":
 #     main()
 
+# FAILED - DUNNO WHY :)
 
 
+#SUCCESSFUL FOR CCOMPRESSION AND HEXADECIMAL REPRESENTATION
 
 import socket
 import sys
@@ -326,3 +334,6 @@ def main():
                 executor.submit(process_conn_with_exception, conn)
 if __name__ == "__main__":
     main()
+
+
+# :()
